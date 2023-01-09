@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: bit5x3 SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 101021104
   material: {fileID: 6438479225632338420}
-  materialHashCode: 0
+  materialHashCode: 1106374032
   m_Version: 1.1.0
   m_SourceFontFileGUID: b7822992edf07224a841d462226dd4d4
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: b7822992edf07224a841d462226dd4d4, type: 3}
@@ -2354,9 +2354,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0

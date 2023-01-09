@@ -29,7 +29,7 @@ public class BallBase : MonoBehaviour
     void Update()
     {
         if (!canMove) return;
-    myRigidBody.MovePosition(transform.position + speed);
+        myRigidBody.MovePosition(transform.position + speed);
 
         if (Input.GetKey(KeyCode.R))
         GameManager.Instance.Restart();
@@ -40,6 +40,7 @@ public class BallBase : MonoBehaviour
         if(other.gameObject.tag == stringToCheck)
         {
         AudioManager.Instance.Play("HitOnPaddle");
+    //    FeedbackManager.Instance.objectDo.PlayFeedbacks();
         OnPlayerCollision();
         }
         if(other.gameObject.tag == "Border")
